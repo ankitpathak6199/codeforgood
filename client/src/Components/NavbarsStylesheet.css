@@ -1,0 +1,19 @@
+#h {
+  color: #f2e4dc;
+  background-image: linear-gradient(to right, #d96f66, #f2e4dc);
+}
+
+.links {
+  color: #f2e4dc !important;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.links:hover {
+  color: black;
+}
+
+.brandname{
+  font-weight: bold;
+  color: #f2e4dc !important;
+  font-size: 1rem;
+}

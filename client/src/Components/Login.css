@@ -1,0 +1,136 @@
+/* * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body{
+      background: #fbe3dd !important;
+      min-height: 100vh;
+        display: flex;
+        font-weight: 400;
+        font-family: 'Fira Sans', sans-serif;
+  }
+
+  h1,h2,h3,h4,h5,h6,label,span {
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  body, html, .App, #root {
+      margin-left:70px;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  } */
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+#hi {
+  background-color: #f25050;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+  margin-top: 10%;
+}
+
+.card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(245, 8, 8, 0.5) !important;
+  /* background-color:white; */
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #d96f66;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+#okcool {
+  color: blue;
+}
+#okcool2 {
+  color: blue;
+}

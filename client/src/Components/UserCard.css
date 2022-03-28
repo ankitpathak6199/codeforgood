@@ -1,0 +1,23 @@
+.user-card{
+    background-color: #d96f66 !important;
+    color: #f2e4dc;
+    font-size: 2rem;
+    /* margin-top: 2rem !important; */
+    margin: 2rem 2rem 2rem 0 !important;
+    padding-top: 1rem;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+    width: 70% !important;
+    height: max-content !important;
+    /* padding-bottom: 2rem !important; */
+    text-align: center;
+    margin-left: 15% !important;
+}
+.card:hover{
+    transform: scale(1.1)
+}
+.card_body{
+    font-size: 1rem;
+}
+
